@@ -1,0 +1,148 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --title-color: #ffffff;
+    --subtitle-color: #303030;
+    --desc-color: #555555;
+    --slider-color: rgba(157, 164, 189, 0.6);
+    --hero-about-text-color: rgba(157, 164, 189, 0.6);
+    --sevice-about-text-color: rgba(157, 164, 189, 0.6);
+    --hero-desc-color: #9DA4BD;
+    --active-color: #FF6C00;
+    --btn-border-color: #FF6C00;
+
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+}
+
+
+
+/* header style */
+
+.header {
+    background: #000;
+    color: var(--title-color);
+}
+
+.nav-list-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: var(--active-color);
+}
+
+.link-order {
+    color: var(--title-color);
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.header-btn {
+    background: transparent;
+    color: var(--title-color);
+    border-color: var(--btn-border-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--active-color);
+}
+
+/* Hero style */
+
+.hero {
+    background: #000;
+}
+
+.hero-list-link {
+    color: var(--subtitle-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+
+.hero-list-link:hover,
+.hero-list-link:focus {
+    color: var(--active-color);
+}
+
+.hero-about-text {
+    color: var(--hero-about-text-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    /* identical to box height, or 118% */
+    letter-spacing: 0.05em;
+}
+
+.hero-text {
+    counter-reset: var(--hero-desc-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+.btn-slider {
+    color: var(--slider-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    background: #000;
+}
+
+.btn-slider:hover,
+.btn-slider:focus {
+    color: var(--title-color);
+}

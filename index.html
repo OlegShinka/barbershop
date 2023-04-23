@@ -5,54 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Barbershop</title>
 </head>
 
 <body>
-    <header>
-        <a href=""><img src="./images/logo.svg" alt="logo barbershop"></a>
-        <ul>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Service and prices</li>
-            <li><a href=""></a>Barbers</li>
-            <li><a href=""></a>Contacts</li>
-        </ul>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button"> Online-booking</button>
+    <header class="header">
+        <nav class="nav">
+            <a class="link" href="index.html"><img src="./images/logo.svg" alt="logo barbershop"></a>
+            <ul class="list nav-list ">
+                <li class="nav-list-item"><a class="link nav-list-link" href=""></a>About</li>
+                <li class="nav-list-item"><a class="link nav-list-link" href=""></a>Service and prices</li>
+                <li class="nav-list-item"><a class="link nav-list-link" href=""></a>Barbers</li>
+                <li class="nav-list-item"><a class="link nav-list-link" href=""></a>Contacts</li>
+            </ul>
+        </nav>
+        <a class="link link-order" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="btn header-btn" type="button"> Online-booking</button>
     </header>
     <main>
 
         <!-- section hero -->
-        <section>
-            <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Youtube</a></li>
+        <section class="hero">
+            <ul class="list hero-list">
+                <li><a class="link hero-list-link" href="">Instagram</a></li>
+                <li><a class="link hero-list-link" href="">Youtube</a></li>
             </ul>
-            <p>A hair salon for men in Kyiv</p>
-            <h1>BarberShop</h1>
-            <p>We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
-            <ul>
-                <li><button type="button">Back</button></li>
-                <li><button type="button">Forward</button></li>
+            <p class="text hero-about-text">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="text hero-text">We are experts in trendy men’s haircuts. We work quickly, carefully and with
+                style.</p>
+            <ul class="list hero-list-btn">
+                <li class="hero-sld-btn"><button class="btn-slider" type="button">Back</button></li>
+                <li class="hero-sld-btn"><button class="btn-slider" type="button">Forward</button></li>
             </ul>
         </section>
 
         <!-- section about -->
-        <section>
-            <ul>
-                <li><img src="./images/smear.jpg" alt="smear the neck" width="270"></li>
-                <li><img src="./images/shave.jpg" alt="shave your neck" width="270"></li>
+        <section class="about">
+            <ul class="list about-list">
+                <li class="link about-list-link"><img src="./images/smear.jpg" alt="smear the neck" width="270"></li>
+                <li class="link about-list-link"><img src="./images/shave.jpg" alt="shave your neck" width="270"></li>
             </ul>
-            <p>About</p>
-            <h2>Best Barbershop in your city</h2>
-            <p>If you want to add more confidence to your image, you should visit us.</p>
-            <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall
+            <p class="text about-text">About</p>
+            <h2 class="subtitle about-subtitle">Best Barbershop in your city</h2>
+            <p class="text about-text">If you want to add more confidence to your image, you should visit us.</p>
+            <p class="text about-text">We are a team that never stops at what has been achieved and are thirsty for
+                changes. And when you fall
                 into the hands
                 of our master, you will never be the same again. We are a team that is always "on the same wave" with
                 clients.
                 Therefore, we are always ready to improve everyone who comes to us!</p>
-            <button type="button" class="">Online-booking</button>
+            <button class="btn about-btn" type="button">Online-booking</button>
         </section>
 
         <!-- section Services and prices -->
@@ -93,7 +107,7 @@
                     </ul>
                 </li>
             </ul>
-            <button type="button" class="">Online-booking</button>
+            <button type="button" class="btn">Online-booking</button>
         </section>
 
         <!-- section our features -->
@@ -179,8 +193,8 @@
             <input type="text" name="name">
             <input type="text" placeholder="phone*">
             <input type="text" placeholder="message">
-            <button type="submit">send</button>
-            <adress>
+            <button class="btn" type="submit">send</button>
+            <address>
                 <h3>Contacts</h3>
                 <ul>
                     <li><a href="">st. Vasylkivska, 7A
@@ -190,7 +204,7 @@
                 </ul>
                 <p>Working hours</p>
                 <p>Every day from 9:00 to 22:00</p>
-            </adress>
+            </address>
         </section>
     </main>
     <footer>
